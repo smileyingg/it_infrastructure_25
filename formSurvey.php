@@ -13,7 +13,7 @@
   <div class="container-fluid">
     <div class="col s12">
       <h4 style="text-align:center;">แบบประเมินความพึงพอใจการร่วมงานสัมมนา "การบริหารจัดการ IT Infrastructure ในยุคดิจิทัล"</h4>
-      <h4 style="text-align:center;">วันอังคารที่ 23 กรกฎาคม 2562 เวลา 13.30-16.30 น. ณ IT Hall อาคารไทยซัมมิททาวเวอร์ ถ.เพชรบุรีตัดใหม่</h4><br />
+      <h4 style="text-align:center;">วันพฤหัสบดีที่ 25 กรกฎาคม 2562 เวลา 13.30-16.30 น. ณ IT Hall อาคารไทยซัมมิททาวเวอร์ ถ.เพชรบุรีตัดใหม่</h4><br />
       <div class="card">
 
         <!-- Start Form -->
