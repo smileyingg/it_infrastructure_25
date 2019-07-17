@@ -21,10 +21,12 @@ if (
   $q4_s1 = $_POST['q4_s1'];
   $q4_s2 = $_POST['q4_s2'];
   $q4_s3 = $_POST['q4_s3'];
+  $q4_s4 = $_POST['q4_s4'];
+  $q4_s5 = $_POST['q4_s5'];
   $next_seminar_detail = $_POST['next_seminar_detail'];
   $suggestions_detail = $_POST['suggestions_detail'];
 
-  $sql = "INSERT INTO answers (q1_1, q1_2, q2_1, q2_2, q2_3, q2_4, q3_1, q3_2, q3_3, q3_4,q3_time, q4_1, q4_2, q4_3,next_seminar_detail,suggestions_detail) VALUES ('$q1_s1', '$q1_s2', '$q2_s1', '$q2_s2', '$q2_s3', '$q2_s4', '$q3_s1', '$q3_s2', '$q3_s3', '$q3_s4', '$q3_time', '$q4_s1', '$q4_s2', '$q4_s3', '$next_seminar_detail', '$suggestions_detail')";
+  $sql = "INSERT INTO answers (q1_1, q1_2, q2_1, q2_2, q2_3, q2_4, q3_1, q3_2, q3_3, q3_4 ,q3_time, q4_1, q4_2, q4_3, q4_4, q4_5,next_seminar_detail,suggestions_detail) VALUES ('$q1_s1', '$q1_s2', '$q2_s1', '$q2_s2', '$q2_s3', '$q2_s4', '$q3_s1', '$q3_s2', '$q3_s3', '$q3_s4', '$q3_time', '$q4_s1', '$q4_s2', '$q4_s3', '$q4_s4', '$q4_s5', '$next_seminar_detail', '$suggestions_detail')";
   $result = mysqli_query($conn, $sql);
 
   if ($result) {

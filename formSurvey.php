@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <?php include 'head.php'; ?>
 
@@ -227,7 +227,23 @@
                   <td><input type="radio" name="q4_s3" id="q4_s3_c2" data-col="2" value="2" required></td>
                   <td><input type="radio" name="q4_s3" id="q4_s3_c1" data-col="1" value="1" required></td>
                 </tr>
-
+                <tr style="text-align:center;">
+                  <th scope="row" style="text-align:left;">4.4 ความสะดวกในการลงทะเบียนเข้าร่วมงาน (ผ่าน Application)</th>
+                  <td><input type="radio" name="q4_s4" id="q4_s4_c5" data-col="5" value="5" required></td>
+                  <td><input type="radio" name="q4_s4" id="q4_s4_c4" data-col="4" value="4" required></td>
+                  <td><input type="radio" name="q4_s4" id="q4_s4_c3" data-col="3" value="3" required></td>
+                  <td><input type="radio" name="q4_s4" id="q4_s4_c2" data-col="2" value="2" required></td>
+                  <td><input type="radio" name="q4_s4" id="q4_s4_c1" data-col="1" value="1" required></td>
+                </tr>
+                <tr style="text-align:center;">
+                  <th scope="row" style="text-align:left;">4.5 ช่องทางการรับข่าวสาร (ผ่าน Application) เช่น เอกสารเพิ่มเติม, แบบสอบถาม</th>
+                  <td><input type="radio" name="q4_s5" id="q4_s5_c5" data-col="5" value="5" required></td>
+                  <td><input type="radio" name="q4_s5" id="q4_s5_c4" data-col="4" value="4" required></td>
+                  <td><input type="radio" name="q4_s5" id="q4_s5_c3" data-col="3" value="3" required></td>
+                  <td><input type="radio" name="q4_s5" id="q4_s5_c2" data-col="2" value="2" required></td>
+                  <td><input type="radio" name="q4_s5" id="q4_s5_c1" data-col="1" value="1" required></td>
+                </tr>
+                
               </tbody>
             </table>
           </div>

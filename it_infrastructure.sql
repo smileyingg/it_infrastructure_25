@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jul 17, 2019 at 06:50 AM
+-- Generation Time: Jul 17, 2019 at 08:15 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.2.18
 
@@ -46,10 +46,12 @@ CREATE TABLE IF NOT EXISTS `answers` (
   `q4_1` int(11) NOT NULL,
   `q4_2` int(11) NOT NULL,
   `q4_3` int(11) NOT NULL,
+  `q4_4` int(11) NOT NULL,
+  `q4_5` int(11) NOT NULL,
   `next_seminar_detail` varchar(200) NOT NULL,
   `suggestions_detail` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
